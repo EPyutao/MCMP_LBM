@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1465178639 source:e:\c++\multicomponent\laplace_law\main.cpp
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<string>
+	<ctime>
+
