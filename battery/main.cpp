@@ -309,7 +309,7 @@ void marco()
             if(brho[i][j]==0)
             {
                 bu[i][j][0]=0;
-                bu[i][j][0]=0;
+                bu[i][j][1]=0;
             }
             else{
                 bu[i][j][0]/=(brho[i][j]);
@@ -323,8 +323,8 @@ void marco()
                 u[i][j][1]=0;
             }
             else{
-                u[i][j][0] = (arho[i][j]*au[i][j][0]/atu + brho[i][j]*bu[i][j][0]/btu) / (arho[i][j]/atu + brho[i][j]/btu );
-                u[i][j][1] = (arho[i][j]*au[i][j][1]/atu + brho[i][j]*bu[i][j][1]/btu) / (arho[i][j]/atu + brho[i][j]/btu );
+                u[i][j][0] = (arho[i][j]*au[i][j][0]/atu + brho[i][j]*bu[i][j][0]/btu) / (arho[i][j]/atu + brho[i][j]/btu);
+                u[i][j][1] = (arho[i][j]*au[i][j][1]/atu + brho[i][j]*bu[i][j][1]/btu) / (arho[i][j]/atu + brho[i][j]/btu);
             }
             // each component speed
             if(arho[i][j]==0)
