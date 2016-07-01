@@ -147,30 +147,30 @@ void evolution()
     }
     for(j=1;j<=(NY-1);j++)//right
     {
-        af[NX][j][6]=aF[1][j][6];
-        af[NX][j][3]=aF[1][j][3];
-        af[NX][j][7]=aF[1][j][7];
-        bf[NX][j][6]=bF[1][j][6];
-        bf[NX][j][3]=bF[1][j][3];
-        bf[NX][j][7]=bF[1][j][7];
+        af[NX][j][6]=aF[0][j][6];
+        af[NX][j][3]=aF[0][j][3];
+        af[NX][j][7]=aF[0][j][7];
+        bf[NX][j][6]=bF[0][j][6];
+        bf[NX][j][3]=bF[0][j][3];
+        bf[NX][j][7]=bF[0][j][7];
     }
     for(i=1;i<=(NX-1);i++)//TOP
     {
-        af[i][1][6]=aF[i][NY][6];
-        af[i][1][5]=aF[i][NY][5];
-        af[i][1][4]=aF[i][NY][4];
-        bf[i][1][6]=bF[i][NY][6];
-        bf[i][1][5]=bF[i][NY][5];
-        bf[i][1][4]=bF[i][NY][4];
+        af[i][0][6]=aF[i][NY][6];
+        af[i][0][5]=aF[i][NY][5];
+        af[i][0][4]=aF[i][NY][4];
+        bf[i][0][6]=bF[i][NY][6];
+        bf[i][0][5]=bF[i][NY][5];
+        bf[i][0][4]=bF[i][NY][4];
     }
     for(i=1;i<=(NX-1);i++)//BOTTOM
     {
-        af[i][NY][7]=aF[i][1][7];
-        af[i][NY][4]=aF[i][1][4];
-        af[i][NY][8]=aF[i][1][8];
-        bf[i][NY][7]=bF[i][1][7];
-        bf[i][NY][4]=bF[i][1][4];
-        bf[i][NY][8]=bF[i][1][8];
+        af[i][NY][7]=aF[i][0][7];
+        af[i][NY][4]=aF[i][0][4];
+        af[i][NY][8]=aF[i][0][8];
+        bf[i][NY][7]=bF[i][0][7];
+        bf[i][NY][4]=bF[i][0][4];
+        bf[i][NY][8]=bF[i][0][8];
     }
     // corner
 
