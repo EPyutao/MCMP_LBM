@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1467293729 source:e:\c++\multicomponent\battery\main.cpp
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<string>
+	<ctime>
+
